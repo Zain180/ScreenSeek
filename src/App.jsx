@@ -60,7 +60,7 @@ function App() {
           label="Search"
         />
       </div>
-      <div className="flex flex-wrap justify-center md:gap-10 gap-1 mt-10">
+      <div className="flex flex-wrap justify-center md:gap-10 gap-2  mt-10">
         {movies.map((movie) => (
           <Card
             key={movie.id}

@@ -1,7 +1,7 @@
 import React from "react";
 function Card({ title = "", imageUrl, releaseDate }) {
   return (
-    <div className="md:w-[20vw] w-48 rounded-lg">
+    <div className="md:w-[20vw] sm:w-48 w-40 rounded-lg">
       <div className="w-full bg-gray-100 rounded  overflow-hidden">
         <img
           className="w-full h-full object-cover object-center"
